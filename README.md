@@ -19,3 +19,11 @@ All you need to do (assuming you have vagrant and virtualbox already installed) 
 It takes about 2 mins to build the new nodejs virtualbox server 
 
 For more details see: http://wiki.ebabel.eu/index.php/Vagrant-nodejs-angularjs-tutorial
+
+NOTES FOR WINDOWS USERS
+---------------------
+For some reason, provisioning from the provision.sh doesn't work in Windows 7. So the work-around is to copy the provision.sh to your home directory and run:
+
+.. code:: bash
+  $ sudo ./provision.sh
+  $ sudo chown -R angularjs-phonecat
