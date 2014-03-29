@@ -25,4 +25,4 @@ NOTES FOR WINDOWS USERS
 For some reason, provisioning from the provision.sh doesn't work in Windows 7. So the work-around is to copy the provision.sh to your home directory and run:
 
     $ sudo ./provision.sh
-    $ sudo chown -R angularjs-phonecat
+    $ sudo chown -R angular-phonecat
